@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="monstera.css">
     <title>Monstera Cafe</title>
 </head>
 <body>
-    <div name="title">
-        <h1>MONSTERA</h1>
-    </div>
-    <div name="navLinks">
-        <h2>Menu <br> Opening Hours <br> Contact</h2>
-    </div>
+    <header>
+        <img src="../monstera.svg" alt="header design">
+
+        <h1>
+            MONSTERA
+        </h1>
+
+        
+        <nav>
+            <ul>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#OpeningHours">Opening Hours</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <img class="cafe-photo" src="../cafe.jpg" alt="picture of cafe">
+
+        <div id="Menu">
+            <h2>Menu</h2>
+
+            <dl>
+                <dt>Filter coffee</dt>
+                <dd>Rotating brew <br> $3.50</dd>
+
+                <dt>Long black/Flat white</dt>
+                <dd>Rotating brew <br> $3.50</dd>
+
+                <dt>Hot chocolate</dt>
+                <dd>Milk or dark <br> $3.50</dd>
+            </dl>
+        </div>
+
+        <div id="OpeningHours">
+            <h2>Opening hours</h2>
+
+            <ul>
+                <li>MON-FRI	07:00—15:00</li>
+                <li>SAT-SUN	08:00—16:00</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer id="Contact">
+        <p>289 MERCER STREET, MELBOURNE, VIC
+        <br>
+        (03) 923 309 75</p>
+    </footer>
 </body>
 </html>

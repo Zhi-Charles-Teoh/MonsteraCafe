@@ -1,0 +1,21 @@
+:root {
+    --scheme-white: #f4f3f9;
+    --font-primary: "Lora";
+    --font-secondary: "Josefin Sans"
+}
+
+body {
+    background-color: var(--scheme-white);
+    text-align: center;
+}
+
+h1 {
+    font: var(--font-primary);
+    font-size: 80px;
+}
+
+nav {
+    font: var(--font-secondary);
+    font-size: 23px;
+}
+
